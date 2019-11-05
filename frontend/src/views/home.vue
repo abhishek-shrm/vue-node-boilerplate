@@ -5,14 +5,15 @@
 </template>
 
 <script>
-
-import Home from '../components/homeComponent'
+// @ is an alias to /src
+import Home from "@/components/homeComponent.vue";
 
 export default {
-  components:{
+  name: "home",
+  components: {
     Home
   }
-}
+};
 </script>
 
 <style lang="scss" scoped>

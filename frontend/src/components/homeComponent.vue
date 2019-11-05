@@ -7,7 +7,8 @@
 </template>
 
 <script>
-import API from '../api'
+
+// import API from '../api' If using APIs remove this comment
 
 export default {
   data(){
